@@ -1,8 +1,4 @@
-body {
-    background: #3449;
-  }
-  
-  * {
+    * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -51,7 +47,6 @@ body {
   }
   
   .add-section button:hover {
-    box-shadow: 0 2px 2px 0 #ccc, 0 2px 3px 0 #ccc;
     opacity: 0.7;
   }
   
@@ -68,7 +63,7 @@ body {
     background: #f2dede;
     width: 95%;
     margin: 0px auto;
-    color: rgb(139, 19, 19);
+    color: rgb(255, 0, 0);
     padding: 10px;
     height: 35px;
   }
@@ -94,41 +89,40 @@ body {
     padding: 5px 0px;
     font-size: 17px;
     font-family: sans-serif;
-    color: #555;
+    color: rgb(31, 31, 31);
   }
   
   .todo-item small {
     display: block;
     width: 100%;
     padding: 5px 0px;
-    color: #888;
+    color: rgb(24, 24, 24);
     padding-left: 30px;
     font-size: 14px;
     font-family: sans-serif;
   }
   
-  .remove-to-do {
+  .remove-to-do a {
     display: block;
     float: right;
     width: 20px;
     height: 20px;
     font-family: sans-serif;
-    color: rgb(139, 97, 93);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     text-align: right;
     padding: 0px 5px 8px 0px;
     border-radius: 50%;
-    transition: background 1s;
     cursor: pointer;
   }
   
   .remove-to-do:hover {
-    background: rgb(139, 97, 93);
+    background: rgb(0, 0, 0);
     color: #fff;
   }
   
   .checked {
-    color: #999 !important;
+    color: rgb(0, 0, 0) !important;
     text-decoration: line-through;
   }
   
@@ -140,5 +134,5 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     text-align: center;
-    color: #cccc;
+    color: rgba(0, 0, 0, 0.8);
   }
