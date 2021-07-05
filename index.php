@@ -54,7 +54,7 @@ require 'db_conn.php';
 
             <?php while ($todo = $todos->fetch(PDO::FETCH_ASSOC)) { ?>
                 <div class="todo-item">
-                    <span id="<?php echo $todo['id']; ?>" class="remove-to-do"><a href=".">x</a></span>
+                    <span id="<?php echo $todo['id']; ?>" class="remove-to-do" ><a href="." style="color: black;">x</a></span>
                     <?php if ($todo['checked']) { ?>
                         <input type="checkbox" class="check-box" data-todo-id="<?php echo $todo['id']; ?>" checked />
                         <h2 class="checked"><?php echo $todo['title'] ?></h2>
